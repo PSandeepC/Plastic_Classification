@@ -22,7 +22,7 @@ def load_model():
 model = load_model()
 
 # Class names (update according to your model)
-CLASS_NAMES = ["HDPE", "LDPA", "NON PLASTIC", "Other", "PET", "PP", "PS", "PVC"]
+CLASS_NAMES = ["HDPE", "LDPE", "NON PLASTIC", "Other", "PET", "PP", "PS", "PVC"]
 
 # Function to preprocess the image
 def preprocess_image(img):
